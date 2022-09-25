@@ -1,0 +1,39 @@
+body {
+    font-size: 15pt;
+}
+
+.font{
+  background-color: red;
+  position: absolute;
+  
+}
+
+
+.img{
+  position: absolute;
+  left:3%;
+  top:10%
+}
+
+.neel{
+  background-color: skyblue;
+  position:absolute;
+  top:60%;
+  
+}
+
+.background{
+  background-color:yellow;
+  position: absolute;
+  height: 200vh;
+  width: 190vw;
+  
+}
+
+
+
+
+
+
+
+
