@@ -1,39 +1,45 @@
-body {
-    font-size: 15pt;
-}
-
-.font{
-  background-color: red;
-  position: absolute;
+body{
   
-}
-
-
-.img{
-  position: absolute;
-  left:3%;
-  top:10%
-}
-
-.neel{
   background-color: skyblue;
-  position:absolute;
-  top:60%;
-  
+} 
+.h1{
+ color: white;
+ font-size:25px;
 }
-
-.background{
-  background-color:yellow;
-  position: absolute;
-  height: 200vh;
-  width: 190vw;
-  
+.img{
+  width: 350px;
 }
-
-
-
-
-
-
-
-
+#big{
+  font-size:10px;
+   position: relative;
+   left: 122px;
+   top:20px;
+}
+.animation{
+  animation: large 5s ;
+}
+@keyframes large {
+  10%{
+    top:20px;
+    color:green;
+}
+  100%{
+   top:-20px;
+   font-size: 20px;
+   left :80px;
+   color: red;
+  }
+}
+.btn{
+  position:relative;
+  top:px;
+  left:120px;
+  height:100px;
+  width:100px;
+  background-color: red;
+  font-size:20px;
+  color: white;
+}
+.h3{
+  font-size: 25px;
+    }
